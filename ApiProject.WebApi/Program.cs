@@ -3,7 +3,7 @@ using ApiProject.WebApi.Context;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-//Registeriaton
+//Registeration 
 builder.Services.AddDbContext<ApiContext>(); // Apicontext used in a Constructor parameter of a Controller
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

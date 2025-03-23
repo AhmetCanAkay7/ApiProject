@@ -1,7 +1,6 @@
 ﻿using ApiProject.WebApi.Context;
 using ApiProject.WebApi.Entities;
 using Microsoft.AspNetCore.Mvc;
-
 namespace ApiProject.WebApi.Controllers;
 
 [Route("api/[controller]")]
